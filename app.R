@@ -12,7 +12,7 @@ library(ggplot2)
 # ── Synthetic data ───────────────────────────────────────────────────────
 set.seed(42)
 
-studies <- c("STUDY-101", "STUDY-204", "STUDY-317")
+studies <- c("STUDY-101", "STUDY-204", "STUDY-317", "STUDY-450")
 
 make_enrollment <- function(study) {
   n_sites  <- sample(8:20, 1)
